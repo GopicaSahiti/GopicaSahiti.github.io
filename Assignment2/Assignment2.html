@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF=8">
+   <title>The Area and Perimeter App</title>
+   <script>
+   
+   //get length and width from the user
+   var length=prompt("Enter a length");
+   length=parseInt(length);
+   var width=prompt("Enter a width");
+   width=parseInt(width);
+   
+   //calculate area
+   var area= length*width;
+   area=parseInt(area);
+   var perimeter= 2*(length+width);
+   perimeter=parseInt(perimeter);
+   </script>
+</head>
+<body>
+   <script>
+   document.write("<h1>Area and perimeter Application</h1>");
+   document.write("length = " + length + "<br>"+
+                  "width = " + width + "<br><br>" +
+				  "Area  =" + area + "<br>" +
+				  "Perimeter =" + perimeter + "<br><br>");
+	document.write("Thanks for using the Area and Perimeter Application!");
+	</script>
+ </body>
+</head>
+</html>
